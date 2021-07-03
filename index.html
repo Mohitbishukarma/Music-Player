@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/028c27c31f.js" crossorigin="anonymous"></script>
+  <title>Music Player</title>
+ 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+      <div class="title">
+          <h2>Flexy - Land of Fire</h2>
+          <h3>Land of Fire</h3>
+      </div>
+      <div class="image_container" id="image_container">
+          
+        <!-- <img class="img" src="Image/images1.jpeg" alt="img" />-->
+        <video id="video" class="img" poster="image/Music-icon.png"  height="175px"autoplay width="175px" >
+            <source src="image/wave.mp4" type="video/mp4"  />
+        </video>
+      </div>
+      <div class="controls">
+       
+          <i class="fa fa-backward"></i>
+         <div class="play_bg"> <i id="play" class="fa fa-play"></i></div>
+          <i class="fa fa-forward"></i>
+          <!--<i class="fa fa-pause"></i>-->
+      </div>
+         <audio src="Music/Flexy - Land of Fire.mp3"></audio>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
